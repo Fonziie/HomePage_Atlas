@@ -1,32 +1,30 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Ansøg";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="layout-container">
     <div class="layout-box jumbotron">
-        <h1 class="display-3">Ansøger</h1>
+        <h1 class="display-3">Ansøgningsformular</h1>
         <p class="lead">
             Nedenfor kan der sendes en ansøgning til os. Du vil høre fra en når vi har modtaget på din ansøgning.
         </p>
         <hr class="my-4">
-        <!-- APPLY -->
+        <!-- ANSØG -->
         <form class="">
             <fieldset>
                 <!-- NAVN -->
                 <div class="form-group">
-                    <span for="">Fulde navn</span>
-                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Intast navn.">
+                    <input type="text" class="form-group form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Intast Navn.">
                 </div>
-
-
+                <!-- MAIL -->
+                <input type="email" class="form-group form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Intast Mail.">
 
 
 
 
                 <!-- SEND -->
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-primary">Afsend</button>
             </fieldset>
         </form>
     </div>

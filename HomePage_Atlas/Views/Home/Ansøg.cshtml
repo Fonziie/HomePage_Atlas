@@ -1,30 +1,38 @@
-﻿@{
-    ViewBag.Title = "Ansøg";
+﻿
+@{
+    ViewBag.Title = "Apply";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
 <div class="layout-container">
     <div class="layout-box jumbotron">
-        <h1 class="display-3">Ansøgningsformular</h1>
+        <h1 class="display-3">Aspirant</h1>
         <p class="lead">
-            Nedenfor kan der sendes en ansøgning til os. Du vil høre fra en når vi har modtaget på din ansøgning.
+            Nedenfor kan der sendes en ansøgning til os. Du vil høre fra os når vi har kigget på din ansøgning.
         </p>
         <hr class="my-4">
-        <!-- ANSØG -->
+        <!-- APPLY -->
         <form class="">
             <fieldset>
                 <!-- NAVN -->
                 <div class="form-group">
-                    <input type="text" class="form-group form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Intast Navn.">
+                    <span for="">Fulde navn</span>
+                    <input type="text" class="form-control" id="" aria-describedby="emailHelp" placeholder="Intast navn.">
                 </div>
                 <!-- MAIL -->
-                <input type="email" class="form-group form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Intast Mail.">
-
-
-
-
-                <!-- SEND -->
-                <button type="submit" class="btn btn-primary">Afsend</button>
+                <div class="form-group">
+                    <span for="">Email adresse</span>
+                    <input type="email" class="form-control" id="" placeholder="Intast email.">
+                    <small id="" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <!-- CHECKBOX -->
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" value="">
+                        Jeg ejer ArmA 3 & DLC
+                    </label>
+                </div>
+                <!-- SUBMIT -->
+                <button type="submit" class="btn btn-primary">Submit</button>
             </fieldset>
         </form>
     </div>

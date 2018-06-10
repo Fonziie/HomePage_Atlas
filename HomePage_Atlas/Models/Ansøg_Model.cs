@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace HomePage_Atlas.Models
 {
@@ -13,7 +14,7 @@ namespace HomePage_Atlas.Models
         [Display(Name = "Fulde navn")]
         [Required(ErrorMessage = "Udfyld venligst dit navn")]
         public string Name { get; set; }
-         /* MAIL */
+        /* EMAIL */
         [Display(Name = "Email")]
         [Required(ErrorMessage = "Udfyld venligst din email")]
         public string Email { get; set; }

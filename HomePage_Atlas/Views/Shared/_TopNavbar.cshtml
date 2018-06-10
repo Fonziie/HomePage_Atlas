@@ -1,0 +1,42 @@
+﻿<!-- HEADER -->
+<nav class="navbar navbar-expand-lg navbar-dark header">
+    <!-- COLLAPSE -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse header-content-pos" id="navbarColor02">
+        <div class="navbar-nav mr-auto">
+            <!-- LINK -->
+            <ul class="navbar-nav">
+                <!-- FORSIDE -->
+                <li class="nav-item ">
+                    <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")" href="@Url.Action("Index", "Home")">
+                        <i class="fas fa-home"></i>
+                        Forside
+                    </a>
+                </li>
+                <!-- INFOMATION-->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Information" ? "active" : "")" href="@Url.Action("Information", "Home")">
+                        <i class="fas fa-info"></i>
+                        <span class="">Information</span>
+                    </a>
+                    <!-- EVENTS -->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Events" ? "active" : "")" href="@Url.Action("Events", "Home")">
+                        <i class="far fa-calendar-alt"></i>
+                        <span class="">Events</span>
+                    </a>
+                </li>
+                <!-- GALLERI -->
+                <li class="nav-item">
+                    <a class="nav-link @(ViewContext.RouteData.Values["Action"].ToString() == "Galleri" ? "active" : "")" href="@Url.Action("Galleri", "Home")">
+                        <i class="far fa-images"></i>
+                        <span class="">Galleri</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>

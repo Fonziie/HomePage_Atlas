@@ -1,0 +1,87 @@
+﻿/* MAIN BODY */
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: whitesmoke;
+
+}
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+    display: none;
+}
+/*HEADER*/
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+/*FOOTER*/
+footer {
+    background-color: black;
+    position: sticky;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    font-size: 8px;
+}
+/*jumbotron*/
+.jumbotron {
+    color: #343a40;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    text-align: justify;
+}
+/*LAYOUTCONTAINER*/
+.layout-container {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (min-width:1441px) {
+    .layout-container {
+        width: 80%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.layout-box {
+    padding: 0.5rem 1rem;
+}
+/* MODAL */
+.modal-content {
+    background-color: #40403f;
+}
+
+
+
+/*LOGO*/
+.logo img {
+    width: 22rem;
+    height: 22rem;
+    margin-top: 1rem;
+}
+/*BACKGROUND*/
+.content:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    background-image: url('Img/Atlas/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: blur(2.5px);
+    transform: scale(1.05);
+}
+/* MODAL*/
+.modal-content {
+    text-align: justify;
+}

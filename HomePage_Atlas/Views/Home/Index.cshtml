@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="layout-container">
+    <!-- LOGO -->
+    <div class="text-center logo">
+        <img src="~/Content/Img/Atlas/logo.png" />
+    </div>
+
+    <!-- HEADLINE -->
+    <div class="jumbotron">
+        <h1 class="">Velkommen til Atlas</h1>
+        <p class="">
+            Hos Atlas sætter vi altid pris på nye folk, der gerne vil opleve Arma 3 fra en anden side end det normale militær milsim.
+            Opsætning som privat militær giver os en masse unikke muligheder, både individuelt for medlemmer, men også som fællesskab.
+            Hos os oplever du blandt andet.
+            <br /><br />
+            - En setting som privat firma. Opgaverne vil blive mangfoldige og forskellige, med mange typer af bagmænd.<br />
+            - Vi ikke tvunget til et bestemt setup, og vores missionmaker “hyrer” os til opgaver, ud fra behov der bliver ønsket, uanset om det klassisk infanteri, SF missioner i dykkerdragt, eller civile beskyttelse.<br />
+            - Karakteropbygning. Noget helt nyt er vores økonomisystem, hvor spillere får løn, som de kan bruge på nyt udstyr, våben og meget mere. Din spiller bliver unik, og alt bliver gemt.<br />
+            - En afslappet setting. Vi fokuserede og seriøse på opgaver, men hos os får du en afslappet og hyggelig stemning, hvor alle er i fokus, nye som gamle.<br />
+        </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="@Url.Action("Information", "Home")" role="button">Vil du vide mere?</a>
+        </p>
+        <hr class="my-4">
+        <h5 class="textbox-headline">Ansøgning</h5>
+        <p>
+            Hvis du overvejer at blive en del af ATLAS fællesskabet, skal du have kunne stå ind for nedenstående krav fra vores side.
+            <br /><br />
+            - Jeg er over 17 år og kan selv administrere min tid<br />
+            - Jeg har købt og installeret Arma 3<br />
+            - Jeg vil gerne spille Arma 3 på hobbyplan, og investere minimum 1 dag om ugen på fællesskabet.<br />
+            - Jeg har læst enhedens regler og aftaler og kan godt stå inden for dem.<br />
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-link" data-toggle="modal" data-target="#regler">
+                Regler & Vedtægter
+            </button>
+            <br /><br />
+            Hvis du klar på ovenstående, så er vi også klar på til dig!<br />
+            Send en ansøgning via knappen herunder så finder vi en dag hvor der er tid til en uddybende snak om hvad et medlemskab hos os betyder. Uanset hvad står vi klar til at hjælpe dig videre.
+        </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="@Url.Action("Ansøg", "Home")" role="button">Ansøg her</a>
+        </p>
+    </div>
+</div>

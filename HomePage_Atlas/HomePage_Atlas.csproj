@@ -152,7 +152,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Ansøg_Model.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -168,6 +167,10 @@
     <Content Include="Content\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\Img\Atlas\background.png" />
     <Content Include="Content\Img\Atlas\logo.png" />
+    <Content Include="Content\Img\commen\under_constuction.png" />
+    <Content Include="Content\Img\Ranks\hæren.png" />
+    <Content Include="Content\Img\Ranks\jest.png" />
+    <Content Include="Content\Img\Ranks\toc.png" />
     <Content Include="Content\StyleSheet.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-all.js" />
@@ -214,11 +217,14 @@
     <Content Include="Views\Home\Information.cshtml" />
     <Content Include="Views\Home\Events.cshtml" />
     <Content Include="Views\Home\Galleri.cshtml" />
-    <Content Include="Views\Home\Ansøg.cshtml" />
+    <Content Include="Views\Form\Index.cshtml" />
+    <Content Include="Views\Home\Organisation.cshtml" />
+    <Content Include="Views\Home\Afdelinger.cshtml" />
+    <Content Include="Views\Home\Personale.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Send\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

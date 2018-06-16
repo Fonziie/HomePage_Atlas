@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace HomePage_Atlas.Controllers
 {
+    /* HJEMME SIDER */
     public class HomeController : Controller
     {
         /* Forside */
@@ -28,8 +29,30 @@ namespace HomePage_Atlas.Controllers
         {
             return View();
         }
-        /* ANSØG*/
-        public ActionResult Ansøg()
+        /* ORGANISATION */
+        public ActionResult Organisation()
+        {
+            return View();
+        }
+
+
+
+        /* AFDELINGER */
+        public ActionResult Afdelinger()
+        {
+            return View();
+        }
+        /* PERSONALE */
+        public ActionResult Personale()
+        {
+            return View();
+        }
+    }
+    /* FORM SIDER */
+    public class FormController : Controller
+    {
+        /* ANSØG */
+        public ActionResult Index()
         {
             return View();
         }

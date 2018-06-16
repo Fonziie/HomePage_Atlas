@@ -35,7 +35,26 @@
                         <span class="">Galleri</span>
                     </a>
                 </li>
+                <!-- ORGANISATION DROPDOWN -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="far fa-building"></i>
+                        <span class="">Organisation</span>
+                    </a>
 
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- AFDELINGER -->
+                        <a class="dropdown-item @(ViewContext.RouteData.Values["Action"].ToString() == "Afdelinger" ? "active" : "")" href="@Url.Action("Afdelinger", "Home")">
+                            <i class="fas fa-sitemap"></i>
+                            <span class="">Afdelinger</span>
+                        </a>
+                        <!-- PERSONALE -->
+                        <a class="dropdown-item @(ViewContext.RouteData.Values["Action"].ToString() == "Personale" ? "active" : "")" href="@Url.Action("Personale", "Home")">
+                            <i class="fas fa-users"></i>
+                            <span class="">Personale</span>
+                        </a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

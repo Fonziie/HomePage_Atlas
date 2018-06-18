@@ -1,5 +1,5 @@
 ﻿<!-- HEADER -->
-<nav class="navbar navbar-expand-lg navbar-dark header">
+<nav class="header navbar-expand-lg navbar-dark">
     <!-- COLLAPSE -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,13 +36,9 @@
                     </a>
                 </li>
                 <!-- ORGANISATION DROPDOWN -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="far fa-building"></i>
-                        <span class="">Organisation</span>
-                    </a>
-
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li class="nav-item dropdown show">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Organisation</a>
+                    <div class="dropdown-menu show" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 39px, 0px);">
                         <!-- AFDELINGER -->
                         <a class="dropdown-item @(ViewContext.RouteData.Values["Action"].ToString() == "Afdelinger" ? "active" : "")" href="@Url.Action("Afdelinger", "Home")">
                             <i class="fas fa-sitemap"></i>
@@ -53,6 +49,13 @@
                             <i class="fas fa-users"></i>
                             <span class="">Personale</span>
                         </a>
+                        <!-- BREAKLINE -->
+                        <div class="dropdown-divider"></div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-link" data-toggle="modal" data-target="#regler">
+                            <i class="fas fa-book"></i>
+                            Regler & Vedtægter
+                        </button>
                     </div>
                 </li>
             </ul>

@@ -168,6 +168,7 @@
     <Content Include="Content\Img\Atlas\background.png" />
     <Content Include="Content\Img\Atlas\logo.png" />
     <Content Include="Content\Img\commen\under_constuction.png" />
+    <Content Include="Content\Img\Dossier\dossier.png" />
     <Content Include="Content\Img\Ranks\hæren.png" />
     <Content Include="Content\Img\Ranks\jest.png" />
     <Content Include="Content\Img\Ranks\toc.png" />
@@ -190,6 +191,7 @@
     <Content Include="Content\Bootstrap\js\bootstrap.bundle.min.js.map" />
     <Content Include="Content\Bootstrap\js\bootstrap.js.map" />
     <Content Include="Content\Bootstrap\js\bootstrap.min.js.map" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -221,6 +223,7 @@
     <Content Include="Views\Home\Organisation.cshtml" />
     <Content Include="Views\Home\Afdelinger.cshtml" />
     <Content Include="Views\Home\Personale.cshtml" />
+    <Content Include="Views\Test\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

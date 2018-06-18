@@ -57,4 +57,15 @@ namespace HomePage_Atlas.Controllers
             return View();
         }
     }
+
+
+    /* TEST */
+    public class TestController : Controller
+    {
+        /* ANSØG */
+        public ActionResult Index()
+        {
+            return View();
+        }
+    }
 }

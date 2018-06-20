@@ -169,9 +169,9 @@
     <Content Include="Content\Img\Atlas\logo.png" />
     <Content Include="Content\Img\Atlas\logo_2.png" />
     <Content Include="Content\Img\commen\under_constuction.png" />
+    <Content Include="Content\Img\Dossier\Data\Foznie.png" />
     <Content Include="Content\Img\Dossier\dossier.png" />
-    <Content Include="Content\Img\Dossier\fonzie_head.png" />
-    <Content Include="Content\Img\Dossier\Foznie.png" />
+    <Content Include="Content\Img\Dossier\Head\_Fonzie.png" />
     <Content Include="Content\Img\Ranks\hæren.png" />
     <Content Include="Content\Img\Ranks\jest.png" />
     <Content Include="Content\Img\Ranks\toc.png" />

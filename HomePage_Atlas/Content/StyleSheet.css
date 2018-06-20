@@ -3,18 +3,13 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     color: whitesmoke;
 }
-
-
-.temp {
-    width: 100%;
-    height: 100%;
-}
 /*SCROLLBAR*/
 ::-webkit-scrollbar {
     display: none;
 }
 /*HEADER*/
 .header {
+    background-color: black;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -22,10 +17,8 @@ body {
     color: #fff;
     display: flex;
     padding-right: 1.5rem;
+    opacity: 0.9;
 }
-
-
-
 /*FOOTER*/
 footer {
     background-color: black;
@@ -78,13 +71,24 @@ footer {
     margin-left: 1rem;
     margin-right: 1rem;
 }
+/* PERSONALE */
 .dossier {
-    width: 15em;
     height: 15em;
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+.modal-vip {
+    background-color: #40403f;
+    padding: 1rem;
+}
+.dossier-vip {
+    width: 25rem;
+    height: 15rem;
+    display: block;
+    width: 100%;
+    height: 100%
 }
 /*LOGO*/
 .logo img {
@@ -120,4 +124,9 @@ footer {
 /* IFRAME ANSØGNINGER*/
 .i-frame {
     height: 217rem;
+}
+
+.temp {
+    height: 100%;
+    width: 100%;
 }

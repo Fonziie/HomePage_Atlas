@@ -167,8 +167,11 @@
     <Content Include="Content\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\Img\Atlas\background.png" />
     <Content Include="Content\Img\Atlas\logo.png" />
+    <Content Include="Content\Img\Atlas\logo_2.png" />
     <Content Include="Content\Img\commen\under_constuction.png" />
     <Content Include="Content\Img\Dossier\dossier.png" />
+    <Content Include="Content\Img\Dossier\fonzie_head.png" />
+    <Content Include="Content\Img\Dossier\Foznie.png" />
     <Content Include="Content\Img\Ranks\hæren.png" />
     <Content Include="Content\Img\Ranks\jest.png" />
     <Content Include="Content\Img\Ranks\toc.png" />
@@ -224,9 +227,11 @@
     <Content Include="Views\Home\Afdelinger.cshtml" />
     <Content Include="Views\Home\Personale.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
+    <Content Include="Views\Modal\_Fonzie.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\Img\Vid\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

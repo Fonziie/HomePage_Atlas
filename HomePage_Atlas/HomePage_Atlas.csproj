@@ -226,12 +226,10 @@
     <Content Include="Views\Home\Organisation.cshtml" />
     <Content Include="Views\Home\Afdelinger.cshtml" />
     <Content Include="Views\Home\Personale.cshtml" />
-    <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Modal\_Fonzie.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Img\Vid\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

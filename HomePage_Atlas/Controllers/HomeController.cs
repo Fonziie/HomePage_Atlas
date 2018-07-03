@@ -34,9 +34,6 @@ namespace HomePage_Atlas.Controllers
         {
             return View();
         }
-
-
-
         /* AFDELINGER */
         public ActionResult Afdelinger()
         {
@@ -48,6 +45,8 @@ namespace HomePage_Atlas.Controllers
             return View();
         }
     }
+
+
     /* FORM SIDER */
     public class FormController : Controller
     {

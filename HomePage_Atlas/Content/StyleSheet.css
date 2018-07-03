@@ -149,3 +149,25 @@ footer {
 }
 
 
+.slidergal {
+    width: 100%;
+}
+
+.slidergal ul {
+    list-style: none outside none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.slidergal li {
+    display: block;
+    float: left;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+.slidergal img {
+    display: block;
+    height: auto;
+    min-width: 100%;
+}

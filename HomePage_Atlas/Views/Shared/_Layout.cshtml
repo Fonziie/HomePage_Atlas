@@ -10,12 +10,20 @@
     <title>@ViewBag.Title - Atlas</title>
     <!--CSS herunder -->
     <link href="~/Content/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+    <link href="~/Content/css/StyleSheet.css" rel="stylesheet" />
     <link href="~/Content/css/lightslider.min.css" rel="stylesheet" />
     <!--CSS TOP -->
     <script src="~/fonts/fontawesome-all.js"></script>
     <!--FONT-->
     <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed" rel="stylesheet">
+    <!--Java herunder -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="~/Content/Bootstrap/js/bootstrap.min.js"></script>
+    <!-- GALLERI -->
+    <script src="~/Scripts/Galleri/lightslider.min.js"></script>
+    <!-- SLIDERS -->
+    <script src="~/Scripts/Galleri/Slider.js"></script>
 </head>
 <body>
     <div class="content">
@@ -34,45 +42,6 @@
     @RenderPage("../Modal/_Fonzie.cshtml")
 
 
-    <!--Java herunder -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="~/Content/Bootstrap/js/bootstrap.min.js"></script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="~/Content/js/lightslider.min.js"></script>
-    <!-- SLIDERS -->
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#lightSlider').lightSlider({
-                gallery: true,
-                item: 1,
-                loop: true,
-                slideMargin: 0,
-                thumbItem: 9
-            });
-            $('#lightSlider_2').lightSlider({
-                gallery: true,
-                item: 1,
-                loop: true,
-                slideMargin: 0,
-                thumbItem: 9
-            });
-            $('#lightSlider_3').lightSlider({
-                gallery: true,
-                item: 1,
-                loop: true,
-                slideMargin: 0,
-                thumbItem: 9
-            });
-            $('#lightSlider_4').lightSlider({
-                gallery: true,
-                item: 1,
-                loop: true,
-                slideMargin: 0,
-                thumbItem: 9
-            });
-        });
-    </script>
 
 </body>
 </html>

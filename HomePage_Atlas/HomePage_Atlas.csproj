@@ -167,25 +167,25 @@
     <Content Include="Content\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Content\css\lightslider.css" />
     <Content Include="Content\css\lightslider.min.css" />
+    <Content Include="Content\css\StyleSheet.css" />
     <Content Include="Content\Img\Atlas\background.png" />
     <Content Include="Content\Img\Atlas\logo.png" />
     <Content Include="Content\Img\Atlas\logo_2.png" />
     <Content Include="Content\Img\commen\under_constuction.png" />
-    <Content Include="Content\Img\controls.png" />
+    <Content Include="Content\Img\commen\controls.png" />
     <Content Include="Content\Img\Dossier\Data\Foznie.png" />
     <Content Include="Content\Img\Dossier\dossier.png" />
     <Content Include="Content\Img\Dossier\Head\_Fonzie.png" />
     <Content Include="Content\Img\Ranks\hæren.png" />
     <Content Include="Content\Img\Ranks\jest.png" />
     <Content Include="Content\Img\Ranks\toc.png" />
-    <Content Include="Content\js\lightslider.js" />
-    <Content Include="Content\js\lightslider.min.js" />
-    <Content Include="Content\StyleSheet.css" />
+    <Content Include="Scripts\Galleri\lightslider.js" />
+    <Content Include="Scripts\Galleri\lightslider.min.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-all.js" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.js" />
+    <Content Include="Scripts\Bootstrap\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -200,17 +200,18 @@
     <Content Include="Content\Bootstrap\js\bootstrap.js.map" />
     <Content Include="Content\Bootstrap\js\bootstrap.min.js.map" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
-    <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="Scripts\jquery-3.3.1.js" />
-    <Content Include="Scripts\jquery-3.3.1.min.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.js" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.js" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <None Include="Scripts\Bootstrap\jquery-3.3.1.intellisense.js" />
+    <Content Include="Scripts\Galleri\Slider.js" />
+    <Content Include="Scripts\Bootstrap\jquery-3.3.1.js" />
+    <Content Include="Scripts\Bootstrap\jquery-3.3.1.min.js" />
+    <Content Include="Scripts\Bootstrap\jquery-3.3.1.slim.js" />
+    <Content Include="Scripts\Bootstrap\jquery-3.3.1.slim.min.js" />
+    <None Include="Scripts\Bootstrap\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\Bootstrap\jquery.validate.js" />
+    <Content Include="Scripts\Bootstrap\jquery.validate.min.js" />
+    <Content Include="Scripts\Bootstrap\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\Bootstrap\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Bootstrap\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -235,13 +236,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\js\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\Galleri\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
-    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\Bootstrap\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\Bootstrap\jquery-3.3.1.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
